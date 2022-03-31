@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "zogenix-values-carousel-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/zogenixValuesCarousel/ZogenixValuesCarouselWebPart.js",
+          "manifest": "./src/webparts/zogenixValuesCarousel/ZogenixValuesCarouselWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ZogenixValuesCarouselWebPartStrings": "lib/webparts/zogenixValuesCarousel/loc/{locale}.js"
+  }
+}
